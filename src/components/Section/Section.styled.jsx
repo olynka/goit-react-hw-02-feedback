@@ -6,7 +6,14 @@ justify-content:center
 `;
 
 export const Title = styled.h2`
-display: block;
-text-align:center;
-color: #337AB7;
-`;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 400px;
+margin-right: auto;
+margin-left: auto;
+padding: 20px; 
+border-radius: 4px;
+border: 1px solid #5b5b5b;
+
+`
